@@ -58,11 +58,17 @@ select {
   textarea,
   select {
     border: 3px solid $color-secondary-dark;
-    width: calc(100% + 1.9rem); // 1.5rem left padding + 4px border from input error spacing
   }
 
   label {
     margin-top: 0;
+  }
+
+  input,
+  textarea,
+  select,
+  label {
+    width: calc(100% + 1.9rem); // 1.5rem left padding + 4px border from input error spacing
   }
 
   .usa-input-inline {
